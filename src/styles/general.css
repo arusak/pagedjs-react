@@ -1,0 +1,25 @@
+
+html {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #222;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+thead {
+	display: table-header-group;
+}
+
+tr > * {
+	border: thin solid grey;
+	padding: 20px;
+}
+
+article, section {
+	page-break-before: always;
+}
+
+

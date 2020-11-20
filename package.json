@@ -1,0 +1,23 @@
+{
+  "name": "react-pagedjs",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "start-print-service": "node start-pdf-server",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "page.css": "0.0.0",
+    "pagedjs": "^0.1.43",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1",
+    "express": "^4.17.1",
+    "puppeteer": "^5.5.0",
+    "cors": "^2.8.5"
+  }
+}
