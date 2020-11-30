@@ -1,4 +1,10 @@
-export class RepeatingTableHeaders extends Paged.Handler {
+import {Handler} from 'pagedjs';
+
+/**
+ * Handler for Pagedjs. If table was split, repeats its thead on each chunk
+ * @see https://gitlab.pagedmedia.org/tools/pagedjs/issues/84
+ */
+export class RepeatingTableHeadersHandler extends Handler {
     constructor(chunker, polisher, caller) {
         super(chunker, polisher, caller);
     }
