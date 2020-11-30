@@ -24,7 +24,7 @@
 }
 
 @page {
-	size: A4 landscape;
+	size: letter landscape;
 	counter-increment: page;
 	margin: 150px 10mm 20mm;
 
